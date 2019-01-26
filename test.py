@@ -1,3 +1,3 @@
-from runner import test_sorts
+from runner import test_sorts, iterate_test
 
-test_sorts(10000)
+iterate_test(10, 5000)
